@@ -37,7 +37,7 @@ async def help_message_f(client, message):
     message_id = 99
     # display the /help message
     await message.reply_text(
-        f"[Welcome !!](https://t.me/magnetdownloader/2339)\n\nPlease read the Pinned Message\n\nReply these commands to Magnet link: \n`/leech@Alpacino_The_bot` \n`/leech@Alpacino_The_bot archive`\n`/ytdl@Alpacino_The_bot`\n`/savethumbnail@Alpacino_The_bot`\n`/clearthumbnail@Alpacino_The_bot`\n\n If still getting some problems try checking chat or tag and ask admins in chat.\n\n Check out our Channel for older uploads : @alpacinodump",
+        f"[Welcome !!](https://t.me/magnetdownloader/2339)\n\nPlease read the Pinned Message\n\nReply these commands to Magnet link: \n`/leech@Alpacino_The_bot` \n`/leech@Alpacino_The_bot archive`\n`/ytdl@Alpacino_The_bot`\n`/savethumbnail@Alpacino_The_bot`\n`/clearthumbnail@Alpacino_The_bot`\n\nTry To bold Link if bot giving error\nIf still getting some problems try checking chat or tag and ask admins in chat.\n\nCheck out our Channel for older uploads : @alpacinodump\nCheck Our New Magnet To Google Drive Group : [Here](https://t.me/joinchat/JZwGtRZur77dpMkufWFaZA)",
         quote=True
     )
 
@@ -52,7 +52,7 @@ async def rename_message_f(client, message):
     ])
     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
     await message.reply_text(
-        "please use @renamebot",
+        "$€D",
         quote=True,
         reply_markup=reply_markup
     )
